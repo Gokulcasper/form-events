@@ -93,5 +93,6 @@ event.preventDefault();
 validateFormData(formData);
 
 submitFormData(formData);
-
+nameEl.value='';
+emailEl.value='';
 });
